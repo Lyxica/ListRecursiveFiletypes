@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		48E58B1B26668E5C0012047C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E58B1A26668E5C0012047C /* main.m */; };
+		48E58B232666B2C20012047C /* NSMutableDictionaryExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E58B222666B2C20012047C /* NSMutableDictionaryExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		48E58B1726668E5C0012047C /* ListRecursiveFiletypes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ListRecursiveFiletypes; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E58B1A26668E5C0012047C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48E58B222666B2C20012047C /* NSMutableDictionaryExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableDictionaryExtension.m; sourceTree = "<group>"; };
+		48E58B262666D4EA0012047C /* NSMutableDictionaryExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMutableDictionaryExtension.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				48E58B1A26668E5C0012047C /* main.m */,
+				48E58B222666B2C20012047C /* NSMutableDictionaryExtension.m */,
+				48E58B262666D4EA0012047C /* NSMutableDictionaryExtension.h */,
 			);
 			path = ListRecursiveFiletypes;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E58B232666B2C20012047C /* NSMutableDictionaryExtension.m in Sources */,
 				48E58B1B26668E5C0012047C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
